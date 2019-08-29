@@ -1,0 +1,17 @@
+[package]
+name = "blockchain"
+version = "0.0.1"
+authors = ["Daniel Owen van Dommelen <daniel.van.dommelen@gmail.com"]
+edition = "2018"
+
+[lib]
+name = "blockchainlib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "blockchain"
+path = "src/main.rs"
+
+[dependencies]
+hex = "0.3.2"
+crypto-hash = "0.3.3"
